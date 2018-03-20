@@ -34,8 +34,8 @@ class IndecisionApp extends React.Component {
     }
 
     handleDeleteOption(optionToRemove) {
-        this.setState((prevState) => ({
-            options: prevState.options.filter((option) => option !== optionToRemove)
+        this.setState(prevState => ({
+            options: prevState.options.filter(option => option !== optionToRemove)
         }));
     }
 
@@ -46,7 +46,7 @@ class IndecisionApp extends React.Component {
             return 'This option already exists';
         }
 
-        this.setState((prevState) => ({ options: prevState.options.concat(option) }));
+        this.setState(prevState => ({ options: prevState.options.concat(option) }));
     }
 
     handlePick() {
