@@ -2,7 +2,7 @@ PATH=%PATH%;D:\Node;D:\Node\node_modules\.bin
 
 PATH=%PATH%;C:\Users\ddpz\Node\Node;C:\Users\ddpz\Node\Node\node_modules\.bin
 
-$env:Path += ";C:\Users\ddpz\Node\Node;C:\Users\ddpz\Node\Node\node_modules\.bin"
+$env:Path += ";C:\Users\ddpz\Desktop\Node\Node;C:\Users\ddpz\Desktop\Node\react-course-projects\react_trials\indecision-app\node_modules\.bin"
 
 
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
@@ -12,3 +12,15 @@ live-server public
 
 git config --global user.name "David Perez"
 git config --global user.email dperezarbues@gmail.com
+
+TODO:
+instalar webpack-cli
+video 51 - testear person.js calls from apps.js
+
+video 53 instalar npm-validator
+Step1 (install):
+	yarn add validator@8.0.0
+TEST validator
+
+
+	
